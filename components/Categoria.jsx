@@ -3,11 +3,15 @@ import useQuiosco from '../hooks/useQuiosco'
 
 const Categoria = ({categoria}) => {
     const {handleClickCategoria, categoriaActual} =useQuiosco()
-    // console.log(categoriaActual)
+  
     const {nombre, icono, id} = categoria
      
     return (
-        <div onClick={()=>handleClickCategoria(id)} 
+        <div onClick={
+            ()=>{
+                handleClickCategoria(id)
+                
+            }} 
         className={`${categoriaActual?.id === id ? 'bg-amber-400' : ''}  flex items-center gap-4 w-full border p-5 hover:bg-amber-400, cursor-pointer`}>
             < Image 
 

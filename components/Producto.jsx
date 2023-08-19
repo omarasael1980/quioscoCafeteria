@@ -3,6 +3,7 @@ import {formatearDinero} from '../helpers'
 import useQuiosco from "../hooks/useQuiosco"
 const Producto = ({producto}) => {
     const {handleSetProducto, handleChangeModal} =useQuiosco()
+ 
   const {nombre, img, precio} =producto
  
   return (
@@ -27,7 +28,7 @@ const Producto = ({producto}) => {
            
 
          }}
-         className="bg-black text-white hover:bg-amber-500 w-full mt-5 p-3 uppercase font-bold">
+         className="bg-black text-white rounded hover:bg-amber-500 w-full mt-5 p-3 uppercase font-bold">
             Agregar  
          </button>
          
