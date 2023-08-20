@@ -48,7 +48,8 @@ export default function Layout({children, pagina}) {
         </Modal>
         
       )}
-      <ToastContainer/>
+      <ToastContainer 
+      autoClose={1000}/>
     </>
   )
 }
