@@ -1,4 +1,4 @@
-import Layout from "../layout/layout"
+import Layout from "../layout/Layout"
 import ResumenProducto from "../components/ResumenProducto"
 import useQuiosco from "../hooks/useQuiosco"
 export default function Resumen  () {
