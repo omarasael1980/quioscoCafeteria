@@ -23,6 +23,7 @@ import {formatearDinero} from '../helpers'
     <div className="md:flex gap-10">
         <div className="md:w-1/3 ">
           <Image
+           className=" h-auto"
             width={300}
             height={400}
             src={`/assets/img/${producto.img}.jpg`}

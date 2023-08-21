@@ -9,13 +9,15 @@ const Sidebar = () => {
     
   return (
     < >
-      <Image  priority={true}
-            className='mr-auto ml-auto'
+      <Image  
+            
+            className='mr-auto ml-auto h-auto' 
             width={250} 
             height={75} 
+             
             src='/assets/img/logo.svg'  
             alt={`imagen de logo`}/>
-      <nav className='mt-10'>
+      <nav className='mt-10  '>
         {categorias.map(categoria =>(
             
             <Categoria 

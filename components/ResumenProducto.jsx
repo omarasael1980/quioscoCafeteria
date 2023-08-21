@@ -13,6 +13,7 @@ const ResumenProducto = ({producto}) => {
                 height={400}
                 alt={`Imagen producto ${producto.nombre}`}
                 src={`/assets/img/${producto.img}.jpg`}
+                className=" h-auto"
             />
         </div>
         <div className="md: w-4/6">

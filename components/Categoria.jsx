@@ -14,7 +14,7 @@ const Categoria = ({categoria}) => {
             }} 
         className={`${categoriaActual?.id === id ? 'bg-amber-400' : ''}  flex items-center gap-4 w-full border p-5 hover:bg-amber-400, cursor-pointer`}>
             < Image 
-
+                 className=" h-auto"
                priority={true}
                 width={40}
                 height={40}
