@@ -1,5 +1,5 @@
  
-import Layout from "../layout/layout"
+import Layout from "../layout/Layout"
 import useQuiosco from "../hooks/useQuiosco"
 import Producto from "../components/Producto"
  
