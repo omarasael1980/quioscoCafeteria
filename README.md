@@ -29,7 +29,9 @@
 
 
 ## Demo
-Visita la demo en línea para experimentar la aplicación en acción.
+### Visita la demo en línea para experimentar la aplicación en acción.
+            [Vista cliente] (https://quioscocafeteria-production.up.railway.app/)
+            [Vista empresa] (https://quioscocafeteria-production.up.railway.app/admin)
 
 ## Instalación
  
