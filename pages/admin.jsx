@@ -12,16 +12,19 @@ export default function Admin(){
             <h1 className="text-4xl font-black">Panel de Administración</h1>
             <p className="text-2xl my-10">Administra 
                 <span className="text-amber-600"> los pedidos</span> </p>
-            {data && data.length ? data.map(orden=>(
+            {data && data.length ? data.map((orden)=>
                     <Orden
-                         key={orden.id}
-                         orden={orden}
-                    />
+                        key={orden.id}
+                        orden={orden}
+                    >
+
+                    </Orden>
                    
-            )):<p>No hay ordenes pendientes</p>}
+            ):<p>No hay ordenes pendientes</p>}
             <div>
 
             </div>
+        
         </AdminLayout>
     )
 }
